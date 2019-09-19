@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "HTTP API HW 1",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klairecoval/http-api-assignment.git"
+  },
+  "author": "Claire Koval",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/klairecoval/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/klairecoval/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
